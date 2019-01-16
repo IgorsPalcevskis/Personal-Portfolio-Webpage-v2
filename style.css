@@ -5,6 +5,11 @@
 
 #welcome-section {
   height: 100vh;
+  text-align: center;
+}
+
+#welcome-section>img {
+  width: 25%;
 }
 
 @media only screen and (min-width: 1280px) {
