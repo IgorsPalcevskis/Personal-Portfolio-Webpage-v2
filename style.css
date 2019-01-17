@@ -16,13 +16,24 @@ body {
   height: 100vh;
 }
 #welcome-section-bg-container {
-  background: url('profile_photo_bw_1080p.jpg') no-repeat fixed center;
+  background: url('profile_photo_bw_centered.jpg') no-repeat fixed top;
+  background-size: contain;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (min-width: 560px) {
+  #welcome-section-bg-container {
+    background: url('profile_photo_bw_1080p.jpg') no-repeat fixed left;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #welcome-section-bg-container {
+    background: url('profile_photo_bw_1080p.jpg') no-repeat fixed center;
+  }
 }
 @media only screen and (min-width: 1920px) {
   #welcome-section-bg-container {
