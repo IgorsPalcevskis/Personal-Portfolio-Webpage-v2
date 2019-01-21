@@ -68,6 +68,15 @@ span {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+/* -------------------------------------------------------------------------------------------- media query for 460px screen */
+@media only screen and (min-width: 460px) {
+  #welcome-section-container {
+    font-size: 3rem;
+  }
+  span {
+    font-size: 1.7rem;
+  }
+}
 /* -------------------------------------------------------------------------------------------- media query for 1920px screen */
 @media only screen and (min-width: 1920px) {
   #welcome-section-container {
