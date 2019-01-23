@@ -18,9 +18,12 @@ body {
   justify-content: center;
 }
 #navbar a, #navbar p {
-  padding: 0.5rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   text-decoration: none;
   color: white;
+}
+#navbar a:hover {
+  background-color: black;
 }
 /* ------------------------------------------------------------ welcome sections CSS */
 #welcome-section {
