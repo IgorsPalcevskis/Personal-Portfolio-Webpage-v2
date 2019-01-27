@@ -1,11 +1,11 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* ------------------------------------------------------------ nav bar CSS */
 #navbar {
   font-size: 1.2rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: uppercase;
   position: fixed;
   top: 0px;
@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 #navbar a, #navbar p {
   padding: 1rem 0.5rem 1rem 0.5rem;
@@ -32,7 +32,6 @@ body {
   height: 100vh;
 }
 #welcome-section-container {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2.2rem;
   width: 100%;
   height: 100%;
@@ -78,6 +77,23 @@ span {
   text-align: center;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+/*  ----------------------------------------------------------------------- footer styling */
+footer {
+  margin-top: 2em;
+  text-align: center;
+}
+footer>p>a:link {
+  text-decoration: underline;
+  color: black;
+}
+footer>p>a:visited {
+  text-decoration: underline;
+  color: black;
+}
+footer>p>a:hover {
+  text-decoration: none;
+  color: #333333;
 }
 /* -------------------------------------------------------------------------------------------- media query for 460px screen */
 @media only screen and (min-width: 460px) {
