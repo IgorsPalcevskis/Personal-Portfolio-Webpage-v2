@@ -81,23 +81,41 @@ span {
   -webkit-transform: rotate(45deg);
 }
 /* ------------------------------------------------------------ about sections CSS */
+#about {
+  color: #202223;
+}
 #about h2 {
   margin: auto;
   width: 50%;
   padding: 2rem 0;
   text-align: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #202223;
+  font-size: 2.2rem;
+  text-transform: uppercase;
 }
 #about p {
+  font-size: 1.3rem;
   width: 75%;
   margin: auto;
   padding-top: 2rem;
   text-align: justify;
 }
+#skill-list p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+#skill-list p span {
+  color: white;
+  background-color: #202223;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
 /*  ----------------------------------------------------------- footer styling */
 footer {
   margin-top: 2em;
   text-align: center;
+  color: #202223;
 }
 footer>p>a:link {
   text-decoration: underline;
@@ -129,6 +147,11 @@ footer>p>a:hover {
   .welcome-section-img-container img {
     max-width: 40%;
     margin-top: 0px;
+  }
+  /* ------------------------------------------------------------ about sections CSS */
+  #about p {
+  text-align: justify;
+  width: 60%;
   }
 }
 /* -------------------------------------------------------------------------------------------- media query for 1920px screen */
