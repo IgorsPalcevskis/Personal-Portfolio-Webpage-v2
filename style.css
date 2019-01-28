@@ -5,7 +5,7 @@ body {
 }
 /* ------------------------------------------------------------ nav bar CSS */
 #navbar {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   position: fixed;
   top: 0px;
@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid white;
 }
 #navbar a, #navbar p {
   padding: 1rem 0.5rem 1rem 0.5rem;
@@ -23,7 +24,8 @@ body {
   color: white;
 }
 #navbar a:hover {
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 /* ------------------------------------------------------------ welcome sections CSS */
 #welcome-section {
@@ -78,7 +80,21 @@ span {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-/*  ----------------------------------------------------------------------- footer styling */
+/* ------------------------------------------------------------ about sections CSS */
+#about h2 {
+  margin: auto;
+  width: 50%;
+  padding: 2rem 0;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+#about p {
+  width: 75%;
+  margin: auto;
+  padding-top: 2rem;
+  text-align: justify;
+}
+/*  ----------------------------------------------------------- footer styling */
 footer {
   margin-top: 2em;
   text-align: center;
