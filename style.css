@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid white;
+  z-index:100;
 }
 #navbar a, #navbar p {
   padding: 1rem 0.5rem 1rem 0.5rem;
@@ -111,6 +112,38 @@ span {
   padding: 0.5rem;
   margin: 0.2rem;
 }
+/* ------------------------------------------------------------ projects sections CSS */
+#projects {
+  background-color: #202223;
+  color: white;
+  padding-bottom: 1rem;
+}
+#projects h2 {
+  margin: auto;
+  margin-top: 2rem;
+  width: 50%;
+  padding: 2rem 0;
+  text-align: center;
+  border-bottom: 3px solid white;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.project-tile {
+  text-align: center;
+}
+.project-tile a {
+  text-decoration: none;
+  color: white;
+}
+.project-tile a figure img {
+  width: 100%;
+}
+.project-tile a figure figcaption {
+  text-align: justify;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 /*  ----------------------------------------------------------- footer styling */
 footer {
   margin-top: 2em;
@@ -155,6 +188,10 @@ footer>p>a:hover {
   }
   #skill-list p {
     text-align: center;
+  }
+  /* ------------------------------------------------------------ about sections CSS */
+  .project-continer {
+    display: flex;
   }
 }
 /* -------------------------------------------------------------------------------------------- media query for 1920px screen */
