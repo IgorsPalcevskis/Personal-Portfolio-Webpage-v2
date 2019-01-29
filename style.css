@@ -130,6 +130,12 @@ span {
 }
 .project-tile {
   text-align: center;
+  margin:1rem;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+.project-tile:hover {
+  border: 1px solid white;
 }
 .project-tile a {
   text-decoration: none;
@@ -137,6 +143,11 @@ span {
 }
 .project-tile a figure img {
   width: 100%;
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+.project-tile a figure img:hover {
+  transform: scale(1.1);
 }
 .project-tile a figure figcaption {
   text-align: justify;
