@@ -140,9 +140,6 @@ span {
   border: 1px solid transparent;
   transition: 0.3s ease;
 }
-.project-tile:hover {
-  border: 1px solid white;
-}
 .project-tile a {
   text-decoration: none;
   color: white;
@@ -152,7 +149,10 @@ span {
   transition: 0.3s ease;
   overflow: hidden;
 }
-.project-tile a figure img:hover {
+.project-tile:hover {
+  border: 1px solid white;
+}
+.project-tile:hover img {
   transform: scale(1.1);
 }
 .project-tile a figure figcaption {
