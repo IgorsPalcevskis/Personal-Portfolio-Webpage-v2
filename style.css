@@ -61,7 +61,7 @@ a.anchor {
   -webkit-text-fill-color: transparent;
 }
 .welcome-section-img-container img {
-  max-width: 80%;
+  max-width: 60%;
   margin-top: 50px;
 }
 .welcome-section-img-container {
@@ -71,7 +71,7 @@ a.anchor {
   margin-top: auto;
   margin-bottom: auto;
 }
-span {
+.welcome-section-img-container h1 span {
   font-size: 1.7rem;
 }
 .arrow-down-container {
@@ -223,16 +223,25 @@ footer p a:hover {
 /* -------------------------------------------------------------------------------------------- media query for 460px screen */
 @media only screen and (min-width: 460px) {
   #welcome-section-container {
-    font-size: 3rem;
+    font-size: 2rem;
   }
-  span {
-    font-size: 1.7rem;
+ .welcome-section-img-container h1 span {
+    font-size: 1.2rem;
+  }
+  .welcome-section-img-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .welcome-section-img-container img {
+    width: 40%;
+    height: auto;
   }
 }
-/* -------------------------------------------------------------------------------------------- media query for 460px screen */
+/* -------------------------------------------------------------------------------------------- media query for 760px screen */
 @media only screen and (min-width: 760px) {
   .welcome-section-img-container img {
-    height: 40%;
+    width: 40%;
+    height: auto;
   }
 }
 /* -------------------------------------------------------------------------------------------- media query for 790px screen */
@@ -243,6 +252,12 @@ footer p a:hover {
 }
 /* -------------------------------------------------------------------------------------------- media query for 1024px screen */
 @media only screen and (min-width: 1024px) {
+  #welcome-section-container {
+    font-size: 3rem;
+  }
+ .welcome-section-img-container h1 span {
+    font-size: 1.7rem;
+  }
   /* ------------------------------------------------------------ about sections CSS */
   #about p {
   text-align: justify;
@@ -278,7 +293,7 @@ footer p a:hover {
   margin: auto;
   }
   .welcome-section-img-container img {
-    height: 60%;
+    height: auto;
   }
   .welcome-section-img-container h1 {
     font-size: 6rem;
