@@ -127,7 +127,7 @@ span {
   color: white;
   padding-bottom: 1rem;
 }
-#projects h2 {
+#projects .project-title-container h2 {
   margin: auto;
   margin-top: 2rem;
   width: 50%;
@@ -252,14 +252,21 @@ footer p a:hover {
     display: flex;
   }
 }
+/* -------------------------------------------------------------------------------------------- media query for 1280px screen */
+@media only screen and (min-width: 1280px) {
+  #welcome-section-container, .project-continer {
+    width: 1260px;
+    margin: auto;
+  }
+}
 /* -------------------------------------------------------------------------------------------- media query for 1920px screen */
 @media only screen and (min-width: 1920px) {
-  #welcome-section-container {
-  width: 1920px;
+  #welcome-section-container, .project-title-container, #about, #contact {
+  width: 1900px;
   margin: auto;
   }
   .welcome-section-img-container img {
-    height: 70%;
+    height: 60%;
   }
   .welcome-section-img-container h1 {
     font-size: 6rem;
